@@ -1,13 +1,13 @@
 <?php
 /*
- * Plugin Name: JustComments WP
+ * Plugin Name: JustComments
  * Plugin URI: https://just-comments.com
- * Description: Add JustComments to your website using a WP plugin
+ * Description: Adds JustComments to your site replacing original WP comments
  * Text Domain: just-comments
  * Version: 1.0.0
- * Author:
- * Author URI:
- * License:
+ * Author: Oleksii Rudenko
+ * Author URI: https://alex-rudenko.com
+ * License: MIT
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -23,5 +23,5 @@ require_once JUST_COMMENTS_DIR . '/includes/class-just-comments-plugin.php';
 require_once( JUST_COMMENTS_DIR . '/includes/class-just-comments-settings.php' );
 require_once JUST_COMMENTS_DIR . '/admin/class-just-comments-admin.php';
 require_once( JUST_COMMENTS_DIR . '/frontend/class-just-comments-frontend.php' );
-
+require_once( JUST_COMMENTS_DIR . '/frontend/class-just-comments-frontend.php' );
 $just_comments = new Just_Comments_Plugin();

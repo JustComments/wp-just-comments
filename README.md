@@ -10,6 +10,6 @@
 
 ## Installation
 
-1. Go to [Releases](https://github.com/JustComments/wp-just-comments/releases) and download the latest version
-2. Upload the plugin in the Plugins tab in your WordPress admin panel
+1. Go to [Releases](https://github.com/JustComments/wp-just-comments/releases) and download the latest version.
+2. Upload the plugin in the Plugins tab in your WordPress admin panel.
 3. Go to Settings -> JustComments in your WordPress admin panel and paste your integration code.
